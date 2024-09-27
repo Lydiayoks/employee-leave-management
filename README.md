@@ -6,13 +6,22 @@ This is a decentralized Leave Management System built using the Azle framework a
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/yourusername/leave-management-canister.git
+   git clone https://github.com/Lydiayoks/employee-leave-management.git
    ```
-2. Install dependencies.
+2. Change the directory.
+```bash
+cd employee-leave-management
+```
+3. Install dependencies.
    ```bash
    npm install
    ```
-3. Build and deploy the canister.
+
+4. Start the Local Replica.
+```bash
+dfx start --clean --background
+```
+5. Build and deploy the canister.
    ```bash
    dfx deploy
    ```
